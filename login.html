@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>登陆页</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/login_register.css" />
+		<!--IE8只能支持jQuery1.9-->
+		<!--[if lte IE 8]>
+		<script src="http://cdn.bootcss.com/jquery/1.9.0/jquery.min.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<div class="top"></div>
+		<div class="content">
+			<div class="login">
+				<h2>登录</h2>
+				<form action="control/login/login.php" method="post" name="fm1" id="fm1">
+					<!--用户名-->
+					<p class="txt">
+						<input id="username" name="username" tabindex="1" placeholder="手机号/邮箱" onfocus="login.focusUsername()" onblur="login.validUserName()" type="text">
+						<i class="name"></i>
+						<span id="validUserName" class="user" style="display: none;">请输入登录账号</span>
+					</p>
+					<!--密码-->
+					<p class="txt">
+						<input id="password" name="password" tabindex="2" onkeydown="login.enterLogin(event)" placeholder="密码" onfocus="login.focusPwd()" onblur="login.validPassword()" type="password">
+						<i class="password"></i>
+						<span id="validPassword" class="user" style="display: none;">  </span>
+						<b class="forget_mm" onclick="forget_psd()"></b>
+					</p>
+					<!--显示验证码-->
+					<!--<p class="txt yzm">-->
+					<!--登录button-->
+					<div class="wrap_go">
+						<a href="javascript:;" onclick="login.validSubmit()">登录</a>
+					</div>
+					<!--第三方登录接口-->
+					<p class="third-party">
+						<a id="" href="javascript:;" class="qq"></a>
+						<a id="" href="javascript:;" class="wechat"></a>
+					</p>
+					<!--切换-->
+					<div class="reg" style="margin-top: 44px;">
+						<p>or</p>
+						<a href="register.html" id="register">注册</a>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="footer"></div>
+		<script src="js/jquery-1.7.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/login_register.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>

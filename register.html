@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>注册页</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/login_register.css" />
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			var ctx = '';
+		</script>
+		<!--IE8只能支持jQuery1.9-->
+		<!--[if lte IE 8]>
+		<script src="http://cdn.bootcss.com/jquery/1.9.0/jquery.min.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<div class="top"></div>
+		<div class="content">
+			<div class="login_register">
+				<h2>注册</h2>
+				<form id="register_fm" class="fm-v" name="fm2" action="" method="post">
+					<p class="txt" id="reg_tel_div">
+						<input id="register_userName" style="margin-bottom: 25px;" name="userName" class="" type="text" placeholder="邮箱" onfocus="register.clearUserName()" onblur="register.validUserName()">
+						<span id="register_valid_username" style="display: none;top: 50px;right: 91px;" class="ts1 ts3">请输入正确的邮箱</span>
+					</p>
+					<p class="txt">
+						<input id="register_password" style="margin-bottom: 25px;" name="password" type="password" placeholder="密码" onfocus="register.clearPassword()" onblur="register.validPassword()">
+						<span class="ts4" id="register_valid_password" style="display: none;top: 50px;right: 91px;"></span>
+					</p>
+					<p class="txt">
+						<input id="register_password_confirm" style="margin-bottom: 25px;" name="password_confirm" type="password" placeholder="确认密码" onfocus="register.clearPasswordConfirm()" onblur="register.validPasswordConfirm()">
+						<span class="ts4" id="register_valid_password_confirm" style="display: none;top: 50px;right: 91px;"></span>
+					</p>
+					<div class="wrap_go login_btn">
+						<a href="javascript:;" class="login_wz" id="re_btn" onclick="register.validSubmit();">注册</a>
+					</div>
+					<p class="check_box">
+						<input id="agreement_check" type="checkbox" value="checkbox" checked="checked">
+						<b class="xy">我已阅读并同意<a href="#" target="_blank">《商城用户协议》</a></b>
+					</p>
+				</form>
+			</div>
+		</div>
+		<div class="footer"></div>
+		<script src="js/jquery-1.7.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/login_register.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>

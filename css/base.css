@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+/*样式初始化*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: ArialUnicodeMS, "微软雅黑";
+    color: #000;
+    text-align: left;
+    font-size: 12px;
+}
+
+ul,li{
+    padding: 0;
+    margin: 0;
+    list-style-type: none
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+p,
+textarea,
+dl,dt,dd,button,input{
+    padding: 0;
+    margin: 0;
+    border: none;
+    font-weight: normal;
+    outline: none;
+}
+.zoom {
+    zoom: 1;
+}
+
+.hidden {
+    overflow: hidden
+}
+
+a {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.cursor {
+    cursor: pointer
+}
+
+.disno {
+    display: none
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.c-red {
+    color: red;
+}
+
+.c-y {
+    color: #ffb221;
+}
+
+.kong {
+    width: 100%;
+    height: 65px;
+}
+
+.c666 {
+    color: #666;
+}
+
+.bgf {
+    background-color: #FFFFFF;
+}
+
+
+/*样式初始化end*/

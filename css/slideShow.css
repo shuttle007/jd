@@ -1,0 +1,46 @@
+.slider .slide-show {
+	position: relative;
+	width: 730px;
+	height: 454px;
+	margin: 12px 250px 0 220px;
+	background: red;
+	overflow: hidden;
+}
+.slider .slide-show ul{
+	overflow: hidden;
+	position: relative;
+	width: 4380px;
+}
+
+.slider .slide-show .slide-panel {
+	float: left;
+	width: 730px;
+	height: 466px;
+}
+
+.slide-show .slide-nav {
+	text-align: center;
+	position: absolute;
+	right: 315px;
+	bottom: 10px;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+.slide-show .slide-nav span {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	float: left;
+	cursor: pointer;
+	border-radius: 50%;
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background: #3e3e3e;
+	margin-left: 2px;
+	color: #fff;
+}
+
+.slide-show .slide-nav span.active {
+	background: #b61b1f;
+}

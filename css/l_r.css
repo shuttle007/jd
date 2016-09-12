@@ -1,0 +1,89 @@
+body {
+    padding-left: calc(100vw - 100%);
+}
+body {
+    background-color: #fdfbfe;
+}
+.gWrap{
+    width: 1000px;
+    background: wheat;
+    margin: 40px auto;
+}
+
+.gHeader{
+    padding-bottom: 44px;
+    background: #fff;
+    border:1px solid #b2b2b2;
+}
+.uLogo{
+    float: left;
+    background: url('') no-repeat 0 0;
+    width: 313px;
+    height: 53px;
+}
+.gContent{
+    height: 600px;
+    background:url("../images/login_bg.jpg") no-repeat;
+}
+.singleForm{
+    float: right;
+    width: 274px;
+    padding-top: 40px;
+    padding-right: 100px;
+    background: #fff;
+}
+.uFormTopTip{
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 20px;
+}
+.uFormTopItem{
+    position: relative;
+    margin-bottom: 25px;
+}
+.uiInput{
+    height: 18px;
+    line-height: 18px;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #b2b2b2;
+    border-radius: 3px;
+    outline: 0;
+}
+.uFormTopItem .uiInput {
+    width: 250px;
+    padding: 8px 10px;
+}
+.uFormSubmit{
+    margin-bottom: 15px;
+}
+button.uSumbitFunction{
+    width: 140px;
+    height: 40px;
+    padding: 0;
+    overflow: hidden;
+    cursor: pointer;
+    outline: 0;
+    background-color: #f10180;
+    border: 1px solid #f10180;
+    min-width: 72px;color: #fff;
+    font-size: 16px;
+    line-height: 40px;
+}
+button.uSumbitFunction span{
+    display: inline-block;
+}
+.otherFunction{
+    float: right;
+    color: #b3b3b3;
+}
+.forget{
+    color:#666;
+}
+.reg{
+    color:#f10180;
+}
+.gFooter p{
+    color: #767074;
+    text-align: center;
+}

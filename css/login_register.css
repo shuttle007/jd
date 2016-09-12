@@ -1,0 +1,284 @@
+body,
+button,
+input,
+select,
+textarea {
+	font-family: 'Microsoft Yahei', '微软雅黑', \5FAE\8F6F\96C5\9ED1, '宋体', \5b8b\4f53, arial, 'Hiragino Sans GB', Tahoma, Arial, Helvetica;
+}
+
+body {
+	background: url(../images/login_bg_far.jpg) no-repeat;
+}
+
+.top {
+	height: 62px;
+	width: 100%;
+	background-color: #000;
+}
+
+
+.login,
+.register {
+	width: 493px;
+	height: 555px;
+	background-color: white;
+	position: absolute;
+	top: 112px;
+	left: 50%;
+	margin-left: -246px;
+	z-index: 1;
+}
+
+.login h2 {
+	font-size: 24px;
+	text-align: center;
+	padding: 45px 0 41px;
+}
+
+.login p {
+	position: relative;
+}
+
+.login input {
+	display: block;
+	width: 251px;
+	height: 45px;
+	line-height: 45px;
+	border: 1px solid #c4c4c4;
+	margin: 0 auto 25px;
+	padding-left: 57px;
+	font-size: 16px;
+}
+
+input:focus {
+	border: 1px solid #000;
+}
+
+.user {
+	top: 50px;
+	right: 91px;
+	color: #e10030;
+	position: absolute;
+	font-size: 12px;
+}
+
+.psw {
+	top: 50px;
+	right: 91px;
+	color: #e10030;
+	position: absolute;
+	font-size: 12px;
+}
+
+.login i.name {
+	background: url(../images/spring.png) no-repeat 2px -54px;
+	width: 40px;
+	height: 35px;
+	position: absolute;
+	top: 6px;
+	left: 96px;
+	opacity: 0.15;
+	filter: alpha(opacity=15);
+}
+
+.login i.password {
+	background: url(../images/spring.png) no-repeat -45px -54px;
+	width: 40px;
+	height: 35px;
+	position: absolute;
+	top: 6px;
+	left: 96px;
+	opacity: 0.15;
+	filter: alpha(opacity=15);
+}
+
+.login .forget_mm {
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	background: url(../images/spring.png) -98px -54px no-repeat;
+	position: absolute;
+	top: 14px;
+	right: 99px;
+	cursor: pointer;
+}
+
+.login .wrap_go {
+	width: 310px;
+	height: 47px;
+	margin: 0 auto 27px;
+}
+
+.login .wrap_go a {
+	display: block;
+	width: 310px;
+	height: 47px;
+	text-align: center;
+	line-height: 47px;
+	color: #FFFFFF;
+	font-size: 18px;
+	background: #000000;
+}
+
+.third-party {
+	text-align: center;
+}
+
+.third-party a {
+	display: inline-block;
+	width: 92px;
+	height: 25px;
+	background: url(../images/spring.png) no-repeat -5px -99px;
+}
+
+.third-party .wechat {
+	background-position: -5px -130px;
+	margin-left: 58px;
+}
+
+
+/*第三方登录hover*/
+
+.third-party .qq:hover {
+	background: url(../images/spring.png) no-repeat -104px -99px
+}
+
+.third-party .wechat:hover {
+	background: url(../images/spring.png) no-repeat -104px -130px;
+}
+
+.reg {
+	text-align: center;
+	width: 310px;
+	border-top: 1px solid #e4e4e4;
+	position: absolute;
+	bottom: 41px;
+	left: 50%;
+	margin-left: -155px;
+}
+
+.reg p {
+	width: 41px;
+	height: 30px;
+	background-color: #fff;
+	margin: -13px auto 0;
+	font-size: 16px;
+}
+
+.reg a {
+	display: inline-block;
+	font-size: 16px;
+	color: #000;
+	margin-top: 4px;
+}
+
+
+/* 注册 */
+
+.login_register {
+	position: absolute;
+	top: 112px;
+	left: 50%;
+	margin-left: -246px;
+	display: inline-block;
+	width: 493px;
+	height: 555px;
+	background-color: #fff;
+	opacity: 1;
+	z-index: 1;
+}
+
+.login_register h2 {
+	text-align: center;
+	font-weight: normal;
+	font-size: 24px;
+	padding: 43px 0 30px;
+}
+
+.txt {
+	position: relative;
+}
+
+.border {
+	border: 1px solid #e10030!important;
+}
+
+.login_register input {
+	display: block;
+	width: 295px;
+	height: 45px;
+	border: 1px solid #e4e4e4;
+	margin: 0 auto 13px;
+	padding-left: 15px;
+	outline: none;
+	font-size: 16px;
+}
+
+.xy {
+	font-size: 14px;
+	position: relative;
+	top: -2px;
+	font-weight: normal;
+}
+
+span {
+	color: #e10030;
+	position: absolute;
+	top: 15px;
+	right: 100px;
+	font-size: 12px;
+	display: none;
+}
+
+.ts1 {
+	top: 14px;
+	right: 98px;
+	display: inline;
+}
+
+.ts4 {
+	top: 15px;
+	right: 140px;
+}
+
+.check_box {
+	width: 310px;
+	margin: 0 auto;
+}
+
+.check_box input {
+	width: 14px;
+	height: 14px;
+	margin: 0px 7px 0 0;
+	display: inline-block;
+	padding-left: 0;
+}
+
+.wrap_go {
+	width: 310px;
+	height: 47px;
+	position: relative;
+	overflow: hidden;
+	margin: 0 auto 27px;
+	background-color: #000;
+}
+
+.login_btn a {
+	width: 310px;
+	height: 47px;
+	line-height: 47px;
+	color: #fff;
+	text-align: center;
+	margin: 0 auto;
+	display: inline-block;
+	font-size: 18px;
+	position: relative;
+}
+
+.check_box a {
+	color: #000;
+}
+
+input:focus {
+	border: 1px solid #000 !important;
+}

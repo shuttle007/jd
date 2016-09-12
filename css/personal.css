@@ -1,0 +1,109 @@
+.personalWrap{
+    width: 100%;
+    background: #f5f5f5;
+    padding: 10px 0;
+    overflow: hidden;
+}
+.pCenter{
+    width: 1090px;
+    background: #fff;
+    margin: 0 auto;
+    box-shadow: 0 1px 0 #DBD6D0;
+    border: 1px solid #DBD6D0;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.pContent{
+    overflow: hidden;
+}
+.pcLeft{
+    float: left;
+    width: 150px;
+    overflow: hidden;
+    border-right: 1px solid #DBD6D0;
+}
+.pcLeft h1{
+    padding: 15px;
+    font-weight: 400;
+    font-size: 18px;
+    border-bottom: 1px solid #dbd6d0;
+}
+.pcMenu{
+    overflow: hidden;
+}
+.pcMenu a{
+    background: #F8F6F4;
+    border-bottom: 1px solid #dbd6d0;
+    border-top: 1px solid #fff;
+    padding-left: 45px;
+    line-height: 45px;
+    font-size: 14px;
+    display: block;
+    color: #666;
+}
+.pcMenu a:hover{
+    background: #fff;
+}
+.pcRight{
+    float: left;
+    width: 939px;
+    height: 400px;
+}
+.pcMenu a b{
+    position: absolute;
+    margin-left: -30px;
+    margin-top: 10px;
+    height: 20px;
+    width: 20px;
+    background: url("../images/left_nav_icons.png");
+}
+a.pOrder b{
+    background-position: 0 0;
+}
+a.pCollect b{
+    background-position: 0 -25px;
+}
+a.pCasher b{
+
+}
+a.pVip b{
+    background-position: 0 -75px;
+}
+a.pBonus b{
+    background-position: 0 -100px;
+}
+a.pCent b{
+    background-position: 0 -150px;
+}
+a.pBalance b{
+    background-position: 0 -225px;
+}
+a.pPassword b{
+    background-position: 0 -275px;
+}
+a.pAddress b{
+    background-position: 0 -325px;
+}
+a.pAsk b{
+    background-position: 0 -375px;
+}
+/*上传照片区域*/
+.upload{
+    float: left;
+    width: 300px;
+    height: 300px;
+    background: #f2f2f2;
+    border:1px solid #ccc;
+}
+#faceImg{
+    float: left;
+    width: 500px;
+    height: 300px;
+    background: #f2f2f2;
+    border:1px solid #ccc;
+}
+#faceImg img{
+    display: block;
+    width: 240px;
+    height: 300px;
+}

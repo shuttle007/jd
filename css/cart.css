@@ -1,0 +1,406 @@
+body {
+	font: 12px/150% Arial, Verdana, "\5b8b\4f53";
+	color: #666;
+}
+
+.cart {
+	width: 990px;
+	margin: 0 auto;
+}
+
+.cart-h {
+	margin-top: 10px;
+	overflow: hidden;
+}
+
+.cart-h h2 {
+	float: left;
+	font-weight: 700;
+	font-size: 16px;
+	height: 26px;
+	line-height: 26px;
+	text-align: center;
+	color: #e4393c;
+	cursor: pointer;
+}
+
+.cart-h h2 .number {
+	font-family: verdana;
+}
+
+.cart-wrap {
+	overflow: hidden;
+}
+
+.cart-head {
+	height: 32px;
+	line-height: 32px;
+	padding: 5px 0;
+	background: #f3f3f3;
+	border: 1px solid #e9e9e9;
+}
+
+.cart-head .column {
+	float: left;
+}
+
+.cart-head .t-checkbox {
+	height: 18px;
+	line-height: 18px;
+	padding-top: 7px;
+	width: 122px;
+	padding-left: 11px;
+}
+
+.cart-checkbox {
+	position: relative;
+	z-index: 3;
+	float: left;
+	margin-right: 5px;
+}
+
+.jdcheckbox {
+	float: none;
+	position: relative;
+	z-index: 5;
+	vertical-align: middle;
+	_vertical-align: -1px;
+	margin: 0 3px 0 0;
+	padding: 0;
+}
+
+.cart-head .t-goods {
+	width: 208px;
+}
+
+.cart-head .t-props {
+	width: 140px;
+	height: 32px;
+	padding: 0 20px;
+}
+
+.cart-head .t-price {
+	width: 120px;
+	padding-right: 40px;
+	text-align: right;
+}
+
+.cart-head .t-quantity {
+	width: 80px;
+	text-align: center;
+}
+
+.cart-head .t-sum {
+	width: 100px;
+	padding-right: 40px;
+	text-align: right;
+}
+
+.cart-head .t-action {
+	width: 75px;
+}
+
+
+/*订购清单*/
+
+.cart-list {
+	overflow: hidden;
+}
+
+.item-item {
+	position: relative;
+	padding: 0 10px 1px 40px;
+	border-top: 1px solid #c5c5c5;
+	line-height: 20px;
+	_height: 116px;
+	background: #fff;
+}
+
+.item-single:first-child {
+	border-top: none;
+}
+
+.item-form {
+	overflow: hidden;
+}
+
+.item-form .cell {
+	float: left;
+	padding: 15px 0 10px;
+}
+
+.item-item .p-checkbox {
+	position: absolute;
+	z-index: 3;
+	left: 10px;
+	top: 0;
+	width: 30px;
+	min-height: 10px;
+}
+
+.cart-checkbox {
+	position: relative;
+	z-index: 3;
+	float: left;
+	margin-right: 5px;
+}
+
+.p-goods {
+	width: 300px;
+}
+
+.item-item .goods-item .p-img {
+	float: left;
+	width: 80px;
+	height: 80px;
+	border: 1px solid #eee;
+	margin-right: 10px;
+	background: #fff;
+	padding: 0;
+	text-align: center;
+	overflow: hidden;
+}
+
+.item-item .goods-item .item-msg {
+	height: 40px;
+	line-height: 20px;
+	overflow: hidden;
+}
+
+.item-item .goods-item .p-name a {
+	color: #333;
+}
+
+.item-item .p-props-new {
+	width: 100px;
+	height: 80px;
+	line-height: 20px;
+	overflow: hidden;
+	padding: 15px 10px 0;
+}
+
+.item-item .p-props-new,
+.item-item .p-props-new .props-txt {
+	width: 160px;
+}
+
+.item-item .p-props-new .props-txt {
+	width: 100px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	cursor: default;
+}
+
+.item-item .p-price {
+	width: 120px;
+	padding-right: 40px;
+	font-family: verdana;
+	text-align: right;
+}
+
+.item-item .p-price strong {
+	display: block;
+	color: #333;
+	font-weight: 400;
+}
+
+.item-item .p-quantity {
+	width: 80px;
+}
+
+.item-item .p-quantity .itxt {
+	position: absolute;
+	left: 17px;
+	top: 0;
+	border: 1px solid #cacbcb;
+	width: 42px;
+	height: 18px;
+	line-height: 18px;
+	text-align: center;
+	padding: 1px;
+	margin: 0;
+	font-size: 12px;
+	font-family: verdana;
+	color: #333;
+	-webkit-appearance: none;
+}
+
+.p-quantity .quantity-form {
+	position: relative;
+	overflow: hidden;
+	height: 22px;
+	width: 80px;
+}
+
+.item-item .p-quantity .decrement,
+.item-item .p-quantity .increment {
+	border: 1px solid #cacbcb;
+	border-right: 0;
+	height: 18px;
+	line-height: 18px;
+	padding: 1px 0;
+	width: 16px;
+	text-align: center;
+	color: #666;
+	margin: 0;
+	background: #fff;
+}
+
+.item-item .p-quantity .decrement {
+	float: left;
+}
+
+.item-item .p-quantity .increment {
+	float: right;
+	border: 1px solid #cacbcb;
+	border-left: 0;
+	color: #666;
+}
+
+.item-item .p-quantity .decrement.disabled,
+.item-item .p-quantity .increment.disabled {
+	cursor: default;
+	color: #e9e9e9;
+}
+
+.item-item .p-sum {
+	width: 100px;
+	padding-right: 40px;
+	text-align: right;
+	font-family: verdana;
+}
+
+.item-item .p-sum strong {
+	color: #333;
+	font-weight: 700;
+}
+
+.item-item .p-ops {
+	width: 75px;
+}
+
+.item-item .p-ops a {
+	color: #666;
+	display: block;
+}
+
+.cart-bar {
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+.options-box {
+	width: 990px;
+	overflow: hidden;
+	position: relative;
+	height: 50px;
+	border: 1px solid #f0f0f0;
+}
+
+.options-box .select-all {
+	float: left;
+	height: 18px;
+	line-height: 18px;
+	padding: 16px 0 16px 9px;
+	white-space: nowrap;
+}
+
+.options-box .operation {
+	float: left;
+	height: 50px;
+	width: 310px;
+	line-height: 50px;
+}
+
+.options-box .operation {
+	float: left;
+	margin-left: 10px;
+	color: #666;
+}
+
+.options-box .toolbar-right {
+	position: absolute;
+	height: 52px;
+	right: 0;
+	top: -1px;
+	width: 610px;
+}
+
+.options-box .toolbar-right .normal {
+	height: 52px;
+}
+
+.options-box .toolbar-right .normal .comm-right {
+	float: right;
+	width: 650px;
+}
+
+.comm-right .btn-area {
+	float: right;
+}
+
+.btn-area .common-submit-btn,
+.btn-area .submit-btn {
+	display: block;
+	position: relative;
+	width: 96px;
+	height: 52px;
+	line-height: 52px;
+	color: #fff;
+	text-align: center;
+	font-size: 18px;
+	font-family: "Microsoft YaHei";
+	background: #e54346;
+	overflow: hidden;
+}
+
+.options-box .price-sum {
+	float: right;
+	height: 43px;
+	line-height: 20px;
+	margin: 7px 20px 0 10px;
+	color: #666;
+	width: auto;
+	position: relative;
+}
+
+.options-box .price-sum .txt {
+	float: left;
+	width: 50px;
+	text-align: right;
+	color: #999;
+}
+
+.options-box .price-sum .txt-new {
+	width: 50px;
+}
+
+.options-box .price-sum .price {
+	display: inline-block;
+	text-align: right;
+	font-family: verdana;
+}
+
+.options-box .price-sum .price em {
+	font-size: 16px;
+	color: #e4393c;
+	font-weight: 700;
+}
+
+.options-box .amount-sum {
+	float: right;
+	color: #999;
+	height: 44px;
+	line-height: 20px;
+	margin: 7px 0 0;
+	cursor: pointer;
+}
+
+.options-box .amount-sum em {
+	color: #e4393c;
+	font-family: verdana;
+	font-weight: 700;
+	margin: 0 3px;
+}
